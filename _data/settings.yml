@@ -1,0 +1,64 @@
+#-------------------------------
+# General Site Settings
+
+menu:
+- {name: 'Pages', url: 'pages/posts'}
+- {name: 'About', url: 'pages/about'}
+- {name: 'Contact', url: 'pages/contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Class website for Purchase College course Social Software, Fall 2023'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-analytics-ua: ''
+
+#-------------------------------
+# Disqus Section
+
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'namegoeshere'
+
+#-------------------------------
+# About Section
+
+about: >
+  # Social Software
+
+  Social software is explored both from technical and critical perspectives. Hands-on work in conceptualizing, designing, and developing social software projects is informed by examining the evolution of social software and its impact on society. Includes modules on version control, collaborative open source software projects and application programming interfaces. Projects may range in complexity from simple websites to data-driven web applications to real-time applications.
+
+contact: >
+  # Contact
+
+  You may contact Lee through [email](mailto:lee.tusmanATpurchase.edu) if you have any questions or would like to bring up any issues.
+
+#-------------------------------
+# Work Section
+
+projects:
+# To list project pages, uncomment the following lines and add these files!
+#- {name: 'Project One', folder: 'proj-1', file: 'projects/proj-1.html'}
+#- {name: 'Project Two', folder: 'proj-2', file: 'projects/proj-2.html'}
+#- {name: 'Project Three', folder: 'proj-3', file: 'projects/proj-3.html'}
+
+#-------------------------------
+# Contact Section
+
+social:
+#- {icon: 'twitter', link: '#'}
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

@@ -1,0 +1,23 @@
+# Build settings
+
+markdown: kramdown
+permalink: none
+plugins:             [jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+permalink: /:title
+
+port: 4000
+
+sass:
+  sass_dir: assets/css
+  style: :nested
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+
+title:		      "Social Software"
+description:	      "Class website for Purchase College New Media course Social Software, Fall 2023 "
+author:              "Lee Tusman"
+
+
+baseurl: "/social_software_2023" # the subpath of your site, e.g. /blog
+url: "http://leetusman.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  lee2sman
